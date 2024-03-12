@@ -13,7 +13,7 @@ $email = $_POST['email'];
 $dataNasc = $_POST['dataNasc'];
 $estCiv = $_POST['estCiv'];
 
-echo "<br>nome".$nome;
+echo "<br>nome $nome";
 echo "<br>cep".$cep;
 echo "<br>esdereco".$endereco;
 echo "<br>número".$enderecoNum;
@@ -25,6 +25,5 @@ echo "<br>celular".$celular;
 echo "<br>email".$email;
 echo "<br>data Nascimento".$dataNasc;
 echo "<br>estado civil".$estCiv;
-
 
 ?>
