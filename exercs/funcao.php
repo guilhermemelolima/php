@@ -28,10 +28,17 @@ números (inclusive). Imprima o resultado no local
 que chamou a função.
 */
 
+
 /*
  Faça um script em php que, receba um número,
 calcule o fatorial usando função e recursividade e
 exiba o resultado na tela.
 */
-
+function fat_recursiv($num){
+    if($num == 1){
+        return $num;
+    }else{
+        return $num * fat_recursiv($num - 1);
+    }
+}
 ?>
