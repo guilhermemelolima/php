@@ -28,6 +28,10 @@ números (inclusive). Imprima o resultado no local
 que chamou a função.
 */
 
+function soma_n_num(){
+
+    
+}
 
 /*
  Faça um script em php que, receba um número,
